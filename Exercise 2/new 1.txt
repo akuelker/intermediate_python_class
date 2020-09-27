@@ -1,0 +1,7 @@
+import random
+
+def Pick6(): 
+	for i in range(6): 
+			yield random.randint(1, 40) 		 
+for lottery_number in Pick6(): 
+   print("And the next number is... %d!" %(lottery_number))
